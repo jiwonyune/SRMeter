@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0632508E38B07D9F886D547423612438 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8EF2301073B01E30612B5B1BD94446 /* CoreGraphics.framework */; };
+		36C7676BA0241FA98E45C2456D352FE9 /* SLColorArt.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C204446AF09E0DCC748F1981F0B54A /* SLColorArt.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4A601A15424DF472D6580C30238D1DCF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51498E299B7CB17BCC8B54F93C150FAA /* QuartzCore.framework */; };
+		599E5EB466C8B900DA69F1C9FF030260 /* UIImage+ColorArt.h in Headers */ = {isa = PBXBuildFile; fileRef = 424DCDD996C13670900A1C468649D5C8 /* UIImage+ColorArt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		610C4D4155B1403C34F23EBA583E9EE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */; };
+		B39B602C76F679445B622BA1BE53F142 /* UIImage+Scale.h in Headers */ = {isa = PBXBuildFile; fileRef = BF4FB384A8CDEAD0D7066A515FF2472D /* UIImage+Scale.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5846AE7A516A874BD29FCAE58B6EF15 /* Pods-SRMeter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B3538D76AE31C76F24D8C79139A03D /* Pods-SRMeter-dummy.m */; };
+		B664C85F809BF33B6F5A452923D924CB /* SLColorArt.h in Headers */ = {isa = PBXBuildFile; fileRef = 910E39A5E4F53E2B69817CD5E8190B07 /* SLColorArt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4CEFCE8B4D02DCCC8FBF0A90F880C6E /* UIImage+ColorArt.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E92350C05ACD0ED43D99ACF7A517CA /* UIImage+ColorArt.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C804E1DB206D1AC6CF4FF4A79B14CFA0 /* ColorArt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39A684A29B47AB36B35A8761E62C2AAA /* ColorArt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4953ACE670525D3459DD1D1CBC32BD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1FD743D031D373EDF29CC526F758E2 /* UIKit.framework */; };
+		E65DE245FE694555F84FD36588239F45 /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF2A9FDE7BB8ACA4DEA53BABBE828C /* UIImage+Scale.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E9A85522FB50B1FDE46E1288B956FC83 /* Pods-SRMeter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDBF4CFAB7FB831BD6927A5C405E4046 /* Pods-SRMeter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE69A39761F90E09721221C1702E4F4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */; };
+		FE52BB39975A7BE79341641EB6365ED5 /* ColorArt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 476AAE05689EE43FD373C74EE7539048 /* ColorArt-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0D9AC62A1669D3F02F847397E600F5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8EAB52F03A97E74CDCD14643D5CC964;
+			remoteInfo = ColorArt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00956386774090CDE229118806D0F2BC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D8EF2301073B01E30612B5B1BD94446 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		1370EE67A75EC2F813941ADCE044F24F /* ColorArt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ColorArt.modulemap; sourceTree = "<group>"; };
+		25DBDD8D2EA3513C07EECCACDCA9DA12 /* ColorArt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorArt-prefix.pch"; sourceTree = "<group>"; };
+		2C941C4916F4981EE720DED291AE5CCC /* Pods-SRMeter-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SRMeter-resources.sh"; sourceTree = "<group>"; };
+		2D83A78E56BC96214E68BBD96509348F /* Pods-SRMeter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SRMeter-acknowledgements.markdown"; sourceTree = "<group>"; };
+		39A684A29B47AB36B35A8761E62C2AAA /* ColorArt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorArt-umbrella.h"; sourceTree = "<group>"; };
+		424DCDD996C13670900A1C468649D5C8 /* UIImage+ColorArt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ColorArt.h"; path = "ColorArt/Classes/UIImage+ColorArt.h"; sourceTree = "<group>"; };
+		476AAE05689EE43FD373C74EE7539048 /* ColorArt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ColorArt-dummy.m"; sourceTree = "<group>"; };
+		51498E299B7CB17BCC8B54F93C150FAA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		54B3538D76AE31C76F24D8C79139A03D /* Pods-SRMeter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SRMeter-dummy.m"; sourceTree = "<group>"; };
+		60E92350C05ACD0ED43D99ACF7A517CA /* UIImage+ColorArt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ColorArt.m"; path = "ColorArt/Classes/UIImage+ColorArt.m"; sourceTree = "<group>"; };
+		6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6EF74BF89F59F7043E01F0B7287CE47C /* Pods-SRMeter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SRMeter.release.xcconfig"; sourceTree = "<group>"; };
+		84E653E4D9A2AD7F556B819B88050D78 /* Pods_SRMeter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SRMeter.framework; path = "Pods-SRMeter.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C204446AF09E0DCC748F1981F0B54A /* SLColorArt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLColorArt.m; path = ColorArt/Classes/SLColorArt.m; sourceTree = "<group>"; };
+		910E39A5E4F53E2B69817CD5E8190B07 /* SLColorArt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLColorArt.h; path = ColorArt/Classes/SLColorArt.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DBF2A9FDE7BB8ACA4DEA53BABBE828C /* UIImage+Scale.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Scale.m"; path = "ColorArt/Classes/UIImage+Scale.m"; sourceTree = "<group>"; };
+		A0BE43DBFE60EB19BE04A0DBE17EF1C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1BA34119104D9882233A94E2F093DB4 /* ColorArt.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ColorArt.xcconfig; sourceTree = "<group>"; };
+		A62DCF64E967FFD53D2DDE7466AAED69 /* Pods-SRMeter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SRMeter.modulemap"; sourceTree = "<group>"; };
+		A7548015AEE596CB27D12790C0180CAC /* Pods-SRMeter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SRMeter-acknowledgements.plist"; sourceTree = "<group>"; };
+		B30C4934322D935C0BB61D06C1EF7542 /* Pods-SRMeter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SRMeter.debug.xcconfig"; sourceTree = "<group>"; };
+		BF4FB384A8CDEAD0D7066A515FF2472D /* UIImage+Scale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Scale.h"; path = "ColorArt/Classes/UIImage+Scale.h"; sourceTree = "<group>"; };
+		C41A26A39EA56184C3CA2588BB3C2CD9 /* Pods-SRMeter-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SRMeter-frameworks.sh"; sourceTree = "<group>"; };
+		EC1FD743D031D373EDF29CC526F758E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FBEAAB9AA2A02164EAEE9805F294AB19 /* ColorArt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ColorArt.framework; path = ColorArt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDBF4CFAB7FB831BD6927A5C405E4046 /* Pods-SRMeter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SRMeter-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7344905E937D6DCCDA3AE141FC7304AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610C4D4155B1403C34F23EBA583E9EE2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2946601060081016DA8758B70F1C1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0632508E38B07D9F886D547423612438 /* CoreGraphics.framework in Frameworks */,
+				EE69A39761F90E09721221C1702E4F4F /* Foundation.framework in Frameworks */,
+				4A601A15424DF472D6580C30238D1DCF /* QuartzCore.framework in Frameworks */,
+				D4953ACE670525D3459DD1D1CBC32BD9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2691F93227E549B2A03FB9E6D0C3C623 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2691F93227E549B2A03FB9E6D0C3C623 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0D8EF2301073B01E30612B5B1BD94446 /* CoreGraphics.framework */,
+				6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */,
+				51498E299B7CB17BCC8B54F93C150FAA /* QuartzCore.framework */,
+				EC1FD743D031D373EDF29CC526F758E2 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		52F30BCA975C148AE7AAD7122F103205 /* ColorArt */ = {
+			isa = PBXGroup;
+			children = (
+				910E39A5E4F53E2B69817CD5E8190B07 /* SLColorArt.h */,
+				86C204446AF09E0DCC748F1981F0B54A /* SLColorArt.m */,
+				424DCDD996C13670900A1C468649D5C8 /* UIImage+ColorArt.h */,
+				60E92350C05ACD0ED43D99ACF7A517CA /* UIImage+ColorArt.m */,
+				BF4FB384A8CDEAD0D7066A515FF2472D /* UIImage+Scale.h */,
+				9DBF2A9FDE7BB8ACA4DEA53BABBE828C /* UIImage+Scale.m */,
+				DD897AB9FF27146EB217F6DB16709E10 /* Support Files */,
+			);
+			name = ColorArt;
+			path = ColorArt;
+			sourceTree = "<group>";
+		};
+		743C621F05988CDB6B557E8CC85524E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52F30BCA975C148AE7AAD7122F103205 /* ColorArt */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				743C621F05988CDB6B557E8CC85524E0 /* Pods */,
+				9D7CD40CE2F0AD0146A1CB985B402008 /* Products */,
+				FA966EAEDC29AC0779315F579F3A1209 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9D7CD40CE2F0AD0146A1CB985B402008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBEAAB9AA2A02164EAEE9805F294AB19 /* ColorArt.framework */,
+				84E653E4D9A2AD7F556B819B88050D78 /* Pods_SRMeter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAD002D992FF797FCA7A025F1F2E2D41 /* Pods-SRMeter */ = {
+			isa = PBXGroup;
+			children = (
+				A0BE43DBFE60EB19BE04A0DBE17EF1C3 /* Info.plist */,
+				A62DCF64E967FFD53D2DDE7466AAED69 /* Pods-SRMeter.modulemap */,
+				2D83A78E56BC96214E68BBD96509348F /* Pods-SRMeter-acknowledgements.markdown */,
+				A7548015AEE596CB27D12790C0180CAC /* Pods-SRMeter-acknowledgements.plist */,
+				54B3538D76AE31C76F24D8C79139A03D /* Pods-SRMeter-dummy.m */,
+				C41A26A39EA56184C3CA2588BB3C2CD9 /* Pods-SRMeter-frameworks.sh */,
+				2C941C4916F4981EE720DED291AE5CCC /* Pods-SRMeter-resources.sh */,
+				FDBF4CFAB7FB831BD6927A5C405E4046 /* Pods-SRMeter-umbrella.h */,
+				B30C4934322D935C0BB61D06C1EF7542 /* Pods-SRMeter.debug.xcconfig */,
+				6EF74BF89F59F7043E01F0B7287CE47C /* Pods-SRMeter.release.xcconfig */,
+			);
+			name = "Pods-SRMeter";
+			path = "Target Support Files/Pods-SRMeter";
+			sourceTree = "<group>";
+		};
+		DD897AB9FF27146EB217F6DB16709E10 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1370EE67A75EC2F813941ADCE044F24F /* ColorArt.modulemap */,
+				A1BA34119104D9882233A94E2F093DB4 /* ColorArt.xcconfig */,
+				476AAE05689EE43FD373C74EE7539048 /* ColorArt-dummy.m */,
+				25DBDD8D2EA3513C07EECCACDCA9DA12 /* ColorArt-prefix.pch */,
+				39A684A29B47AB36B35A8761E62C2AAA /* ColorArt-umbrella.h */,
+				00956386774090CDE229118806D0F2BC /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ColorArt";
+			sourceTree = "<group>";
+		};
+		FA966EAEDC29AC0779315F579F3A1209 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAD002D992FF797FCA7A025F1F2E2D41 /* Pods-SRMeter */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		53308F29F3B5C6BAE545F2F087AA1D48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C804E1DB206D1AC6CF4FF4A79B14CFA0 /* ColorArt-umbrella.h in Headers */,
+				B664C85F809BF33B6F5A452923D924CB /* SLColorArt.h in Headers */,
+				599E5EB466C8B900DA69F1C9FF030260 /* UIImage+ColorArt.h in Headers */,
+				B39B602C76F679445B622BA1BE53F142 /* UIImage+Scale.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2FB9A09E07B7C894FCC88B72492FB2A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A85522FB50B1FDE46E1288B956FC83 /* Pods-SRMeter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6679EE871D78D3FA896EC386942C0B84 /* Pods-SRMeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A020DE4B41584F1156AAA1FBBD3B725 /* Build configuration list for PBXNativeTarget "Pods-SRMeter" */;
+			buildPhases = (
+				A6792D36FC43F583AA541DE14A632E59 /* Sources */,
+				7344905E937D6DCCDA3AE141FC7304AA /* Frameworks */,
+				E2FB9A09E07B7C894FCC88B72492FB2A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4091D0B42F5AE98BF6F9E7B5F0521D5 /* PBXTargetDependency */,
+			);
+			name = "Pods-SRMeter";
+			productName = "Pods-SRMeter";
+			productReference = 84E653E4D9A2AD7F556B819B88050D78 /* Pods_SRMeter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C8EAB52F03A97E74CDCD14643D5CC964 /* ColorArt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EAB210B219757C46BBEAF8A0E81BEB3 /* Build configuration list for PBXNativeTarget "ColorArt" */;
+			buildPhases = (
+				75605501CEDD5548CC4F004C9964CA2E /* Sources */,
+				EE2946601060081016DA8758B70F1C1F /* Frameworks */,
+				53308F29F3B5C6BAE545F2F087AA1D48 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorArt;
+			productName = ColorArt;
+			productReference = FBEAAB9AA2A02164EAEE9805F294AB19 /* ColorArt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9D7CD40CE2F0AD0146A1CB985B402008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8EAB52F03A97E74CDCD14643D5CC964 /* ColorArt */,
+				6679EE871D78D3FA896EC386942C0B84 /* Pods-SRMeter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75605501CEDD5548CC4F004C9964CA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE52BB39975A7BE79341641EB6365ED5 /* ColorArt-dummy.m in Sources */,
+				36C7676BA0241FA98E45C2456D352FE9 /* SLColorArt.m in Sources */,
+				C4CEFCE8B4D02DCCC8FBF0A90F880C6E /* UIImage+ColorArt.m in Sources */,
+				E65DE245FE694555F84FD36588239F45 /* UIImage+Scale.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6792D36FC43F583AA541DE14A632E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5846AE7A516A874BD29FCAE58B6EF15 /* Pods-SRMeter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4091D0B42F5AE98BF6F9E7B5F0521D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ColorArt;
+			target = C8EAB52F03A97E74CDCD14643D5CC964 /* ColorArt */;
+			targetProxy = C0D9AC62A1669D3F02F847397E600F5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		35EA4690F120799E984AD15B1366939D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1BA34119104D9882233A94E2F093DB4 /* ColorArt.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ColorArt/ColorArt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ColorArt/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ColorArt/ColorArt.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ColorArt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8F4EDB4FC4251A670D8EDA88EB4DD32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EF74BF89F59F7043E01F0B7287CE47C /* Pods-SRMeter.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SRMeter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SRMeter/Pods-SRMeter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SRMeter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B709D1706602D798E5E3178012AEC649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B30C4934322D935C0BB61D06C1EF7542 /* Pods-SRMeter.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SRMeter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SRMeter/Pods-SRMeter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SRMeter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D8D4BF4B17D43984264D59A4AE49B012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1BA34119104D9882233A94E2F093DB4 /* ColorArt.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ColorArt/ColorArt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ColorArt/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ColorArt/ColorArt.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ColorArt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A020DE4B41584F1156AAA1FBBD3B725 /* Build configuration list for PBXNativeTarget "Pods-SRMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B709D1706602D798E5E3178012AEC649 /* Debug */,
+				A8F4EDB4FC4251A670D8EDA88EB4DD32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EAB210B219757C46BBEAF8A0E81BEB3 /* Build configuration list for PBXNativeTarget "ColorArt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35EA4690F120799E984AD15B1366939D /* Debug */,
+				D8D4BF4B17D43984264D59A4AE49B012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

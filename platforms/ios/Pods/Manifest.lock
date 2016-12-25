@@ -1,0 +1,12 @@
+PODS:
+  - ColorArt (0.1.1)
+
+DEPENDENCIES:
+  - ColorArt (~> 0.1)
+
+SPEC CHECKSUMS:
+  ColorArt: de0ffb63da4acdde8e234ded62e200236ca3e7e4
+
+PODFILE CHECKSUM: 480df047c3b2cb7c23c737be2826b6ecc946301b
+
+COCOAPODS: 1.1.1

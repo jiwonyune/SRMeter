@@ -1,0 +1,8 @@
+use_frameworks!
+
+target "SRMeter" do
+# Begin Podfile - /Users/jiwonyune/Documents/Projects/SRMeter/node_modules/nativescript-image-colors/platforms/ios/Podfile 
+ pod 'ColorArt', '~> 0.1' 
+ # End Podfile 
+
+end

@@ -1,0 +1,6 @@
+framework module Pods_SRMeter {
+  umbrella header "Pods-SRMeter-umbrella.h"
+
+  export *
+  module * { export * }
+}
